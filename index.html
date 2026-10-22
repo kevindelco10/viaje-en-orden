@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123b35">
+  <meta name="description" content="Descubre guías prácticas para organizar tu maleta, aprovechar el espacio del coche y preparar tus viajes con inteligencia.">
+  <title>Viaje en Orden | Organiza mejor tu próximo viaje</title>
+  <link rel="canonical" href="https://viajeenorden.com/">
+  <style>
+    :root {
+      --green:#123b35;
+      --green2:#24584b;
+      --cream:#f7f5ee;
+      --orange:#e6a45e;
+      --ink:#20312d;
+      --muted:#64716c;
+      --white:#fff;
+    }
+    * {box-sizing:border-box}
+    html {scroll-behavior:smooth}
+    body {
+      margin:0;
+      background:var(--cream);
+      color:var(--ink);
+      font-family:Arial,Helvetica,sans-serif;
+      line-height:1.65;
+    }
+    a {color:inherit}
+    .wrap {width:min(1080px,90%);margin:auto}
+    header {
+      background:var(--green);
+      color:white;
+      padding:19px 0;
+    }
+    .nav {
+      display:flex;align-items:center;
+      justify-content:space-between;gap:16px;
+    }
+    .brand {
+      font-weight:800;font-size:22px;
+      text-decoration:none;letter-spacing:-.7px;
+    }
+    .brand span {color:var(--orange)}
+    nav {display:flex;gap:20px;flex-wrap:wrap}
+    nav a {font-size:14px;text-decoration:none}
+    .hero {
+      background:var(--green);color:white;
+      padding:66px 0 76px;
+    }
+    .hero-grid {
+      display:grid;grid-template-columns:1.2fr .8fr;
+      align-items:center;gap:40px;
+    }
+    .eyebrow {
+      color:var(--orange);font-weight:700;
+      text-transform:uppercase;letter-spacing:2px;
+      font-size:12px;
+    }
+    h1 {
+      font-size:clamp(38px,6vw,62px);
+      line-height:1.08;letter-spacing:-2px;
+      margin:16px 0;
+    }
+    .hero p {color:#e0eae5;max-width:550px}
+    .btn {
+      display:inline-block;background:var(--orange);
+      color:#182e27;padding:13px 20px;border-radius:7px;
+      text-decoration:none;font-weight:700;margin-top:12px;
+    }
+    .hero-art {
+      min-height:270px;border-radius:18px;
+      background:linear-gradient(145deg,#e6b77c,#f2e5c9);
+      display:flex;align-items:center;justify-content:center;
+      font-size:100px;
+    }
+    section {padding:55px 0}
+    .section-title {font-size:30px;line-height:1.2;margin:0 0 10px}
+    .intro {color:var(--muted);margin:0 0 28px}
+    .cards {
+      display:grid;grid-template-columns:repeat(3,1fr);
+      gap:20px;
+    }
+    .card {
+      background:white;border:1px solid #e8e5db;
+      border-radius:12px;overflow:hidden;
+    }
+    .card-art {
+      height:135px;background:#e9e5d7;
+      display:flex;align-items:center;
+      justify-content:center;font-size:54px;
+    }
+    .card-body {padding:20px}
+    .card h3 {margin:0 0 8px;font-size:20px;line-height:1.35}
+    .card p {color:var(--muted);font-size:14px}
+    .read {font-weight:700;color:var(--green);text-decoration:none}
+    .guide {
+      background:white;border-radius:12px;
+      padding:26px;margin:20px 0;
+      border:1px solid #e8e5db;
+    }
+    .guide h3 {margin-top:0}
+    .guide li {margin:8px 0}
+    .notice {
+      background:#eee9db;padding:18px;border-radius:8px;
+      font-size:13px;color:#4e5c55;
+    }
+    .about {background:#e9eee7}
+    footer {background:#102e29;color:#e5eee8;padding:32px 0}
+    footer a {color:white}
+    .footer-links {display:flex;gap:18px;flex-wrap:wrap;font-size:14px}
+    @media(max-width:700px) {
+      .hero-grid {grid-template-columns:1fr;gap:25px}
+      .hero {padding:48px 0}
+      .hero-art {min-height:170px;font-size:75px}
+      .cards {grid-template-columns:1fr}
+      nav {gap:12px}
+      .brand {font-size:19px}
+      .section-title {font-size:26px}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#inicio">Viaje <span>en Orden</span></a>
+    <nav aria-label="Navegación principal">
+      <a href="#guias">Guías</a>
+      <a href="#maleta">Equipaje</a>
+      <a href="#nosotros">Sobre nosotros</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Viaja con más tranquilidad</div>
+        <h1>Menos caos.<br>Más viaje.</h1>
+        <p>Ideas prácticas, listas y consejos para organizar tu equipaje, aprovechar el espacio y preparar mejor cada escapada.</p>
+        <a class="btn" href="#guias">Descubrir las guías →</a>
+      </div>
+      <div class="hero-art" role="img" aria-label="Ilustración de una maleta de viaje">🧳</div>
+    </div>
+  </section>
+
+  <section id="guias">
+    <div class="wrap">
+      <h2 class="section-title">Organiza tu próximo viaje</h2>
+      <p class="intro">Soluciones sencillas para preparar el equipaje y viajar mejor.</p>
+      <div class="cards">
+        <article class="card">
+          <div class="card-art" aria-hidden="true">🧳</div>
+          <div class="card-body">
+            <h3>Cómo organizar una maleta pequeña</h3>
+            <p>Planifica la ropa, aprovecha cada rincón y evita llevar cosas innecesarias.</p>
+            <a class="read" href="#maleta">Leer la guía →</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-art" aria-hidden="true">🚗</div>
+          <div class="card-body">
+            <h3>Cómo aprovechar el maletero del coche</h3>
+            <p>Organiza el equipaje, distribuye la carga y deja los objetos necesarios a mano.</p>
+            <a class="read" href="#coche">Leer la guía →</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-art" aria-hidden="true">🎒</div>
+          <div class="card-body">
+            <h3>Qué llevar para una escapada de fin de semana</h3>
+            <p>Una lista práctica para preparar un viaje corto sin llenar la bolsa de más.</p>
+            <a class="read" href="#escapada">Leer la guía →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="maleta">
+    <div class="wrap">
+      <h2 class="section-title">Cómo organizar una maleta pequeña</h2>
+      <p class="intro">Una guía práctica para empezar a preparar tu equipaje.</p>
+      <div class="guide">
+        <h3>1. Haz una lista antes de empezar</h3>
+        <p>Consulta la duración del viaje, el tiempo previsto y las actividades que harás. Elige prendas combinables y evita llevar duplicados innecesarios.</p>
+        <h3>2. Agrupa los objetos por categorías</h3>
+        <p>Separa ropa, higiene, documentación y dispositivos. Las bolsas organizadoras pueden facilitar la clasificación, aunque no son imprescindibles.</p>
+        <h3>3. Aprovecha el espacio con criterio</h3>
+        <p>Prueba a enrollar algunas prendas y coloca los objetos más pesados cerca de la base de la maleta. No fuerces las cremalleras.</p>
+        <h3>4. Revisa las normas del transporte</h3>
+        <p>Comprueba las medidas y el peso permitidos por tu aerolínea. Si llevas líquidos en cabina, consulta las restricciones vigentes antes de salir.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="coche">
+    <div class="wrap">
+      <h2 class="section-title">Cómo aprovechar el maletero del coche</h2>
+      <div class="guide">
+        <p>Antes de cargar, coloca las maletas grandes y pesadas de forma estable y distribuye el peso siguiendo las recomendaciones del fabricante del vehículo.</p>
+        <ul>
+          <li>Usa bolsas o cajas adecuadas para agrupar objetos pequeños.</li>
+          <li>Evita que el equipaje se desplace durante el trayecto.</li>
+          <li>No tapes la visibilidad ni dejes objetos sueltos que puedan salir despedidos.</li>
+          <li>Comprueba que puedes acceder al material que necesitarás durante la parada.</li>
+        </ul>
+        <p>Un organizador de maletero puede ayudar si se adapta a las dimensiones del vehículo. Mide el espacio antes de comprarlo y verifica las características del producto.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="escapada">
+    <div class="wrap">
+      <h2 class="section-title">Lista para una escapada de fin de semana</h2>
+      <div class="guide">
+        <ul>
+          <li>Documentación, reservas y tarjetas necesarias.</li>
+          <li>Ropa combinable según el clima y las actividades.</li>
+          <li>Artículos de higiene y medicación personal necesaria.</li>
+          <li>Cargador y batería externa, si la necesitas.</li>
+          <li>Calzado adecuado y una bolsa para la ropa usada.</li>
+          <li>Botella reutilizable y otros objetos permitidos para el viaje.</li>
+        </ul>
+        <p>Adapta esta lista al destino, la duración, el transporte y tus necesidades personales.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="nosotros">
+    <div class="wrap">
+      <h2 class="section-title">Viajar mejor empieza por organizarse</h2>
+      <p>Viaje en Orden es un proyecto editorial centrado en consejos prácticos de equipaje, organización y accesorios de viaje. Queremos ayudarte a comparar opciones y tomar decisiones informadas antes de comprar.</p>
+      <div class="notice">
+        <strong>Transparencia:</strong> este sitio está preparando su sistema de afiliación. Cuando incorporemos enlaces afiliados, podremos recibir una comisión por compras que cumplan las condiciones del programa, sin coste adicional para el comprador. Las recomendaciones deberán ser verificadas antes de publicarse.
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Viaje en Orden</strong> · Guías para viajar mejor.</p>
+    <div class="footer-links">
+      <a href="mailto:hola@viajeenorden.com">Contacto</a>
+      <a href="#nosotros">Sobre nosotros</a>
+    </div>
+    <p style="font-size:12px;color:#c5d4cd">© <span id="year">2026</span> Viaje en Orden.</p>
+  </div>
+</footer>
+</body>
+</html>
